@@ -11,8 +11,7 @@ Magic Portfolio was built with [Once UI](https://once-ui.com) for [Next.js](http
 
 **1. Clone the repository**
 ```
-git clone https://github.com/once-ui-system/magic-portfolio.git
-```
+git clonehttps://github.com/SolomonKumaga123/portfolio.git
 
 **2. Install dependencies**
 ```
