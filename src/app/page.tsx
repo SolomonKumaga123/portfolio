@@ -70,6 +70,26 @@ export default function Home() {
       <RevealFx translateY="16" delay={0.6}>
         <Projects range={[1, 1]} />
       </RevealFx>
+
+      {/* Football Skills Navigation Section */}
+      <RevealFx translateY="24" delay={0.7} fillWidth horizontal="center" paddingY="32" id="football-for-beginners">
+        <Column fillWidth gap="xl" maxWidth="m" style={{ background: 'var(--brand-alpha-weak)', borderRadius: '1.5rem', padding: '2rem' }}>
+          <Heading as="h2" variant="display-strong-l" style={{ textAlign: 'center' }}>
+            Football for Beginners: Explore Each Skill
+          </Heading>
+          <Text variant="body-default-l" style={{ textAlign: 'center' }}>
+            My name is Solomon Kumaga. I haven't joined a team yet, but I'm passionate about learning and sharing football knowledge—especially for those just starting out. Click a skill below to dive deep into each part of the game!
+          </Text>
+          <Column gap="l" as="nav" style={{ alignItems: 'center' }}>
+            <Button href="/football/releases" variant="primary" size="l" style={{ width: '100%', maxWidth: 400 }}>Wide Receiver: Releases</Button>
+            <Button href="/football/route-running" variant="primary" size="l" style={{ width: '100%', maxWidth: 400 }}>Wide Receiver: Route Running</Button>
+            <Button href="/football/catching" variant="primary" size="l" style={{ width: '100%', maxWidth: 400 }}>Wide Receiver: Catching</Button>
+            <Button href="/football/press-man" variant="primary" size="l" style={{ width: '100%', maxWidth: 400 }}>Defensive Back: Press Man Techniques</Button>
+            <Button href="/football/zone-coverage" variant="primary" size="l" style={{ width: '100%', maxWidth: 400 }}>Defensive Back: Zone Coverage</Button>
+            <Button href="/football/mindset" variant="primary" size="l" style={{ width: '100%', maxWidth: 400 }}>Mindset & Learning</Button>
+          </Column>
+        </Column>
+      </RevealFx>
       {routes["/blog"] && (
         <Flex fillWidth gap="24" mobileDirection="column">
           <Flex flex={1} paddingLeft="l" paddingTop="24">
